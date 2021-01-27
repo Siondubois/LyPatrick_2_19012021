@@ -52,6 +52,18 @@ header span a{
     font-weight: bold;
 }
 
+/* footer */
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer .fbloc{
+    margin: 0 0 0 0;
+}
+
 @media all and (max-width: 1200px){
 
 /*HEADER*/
@@ -81,4 +93,11 @@ nav a{
 header span{
     order: 1;
     margin-right: 20px;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    flex-direction: column;
 }
