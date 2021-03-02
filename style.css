@@ -1,13 +1,5 @@
-@font-face
-{
-    font-family: 'raleway';
-    src: url('font/Raleway-Black.ttf'),
-        url('font/Raleway-BlackItalic.ttf') url('font/Raleway-VariableFont_wght.ttf') url('font/Raleway-Italic-VariableFont_wght.ttf');
-}
-
-
 body{
-    font-family: 'raleway', 'cavolini';
+    font-family: 'Raleway', 'cavolini';
 }
 
 /* header */
