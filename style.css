@@ -1,13 +1,5 @@
-@font-face
-{
-    font-family: 'raleway';
-    src: url('font/Raleway-Black.ttf'),
-        url('font/Raleway-BlackItalic.ttf') url('font/Raleway-VariableFont_wght.ttf') url('font/Raleway-Italic-VariableFont_wght.ttf');
-}
-
-
 body{
-    font-family: 'raleway', 'cavolini';
+    font-family: 'Raleway', 'cavolini';
 }
 
 /* header */
@@ -179,15 +171,15 @@ footer .fbloc{
 
 /* article */
 
-.articles{
+.main_hebergement{
     display: flex;
 }
 
-.articles h2{
+.main_hebergement h2{
     margin: 25px;
 }
 
-.articles h3{
+.main_hebergement h3{
     font-weight: bolder;
 }
 
@@ -357,7 +349,7 @@ footer .fbloc{
 }
 
 /* section2 */
-.articles{
+.main_hebergement{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -374,11 +366,11 @@ footer .fbloc{
     width: 93%;
 }
 
-.articles .hebergement{
+.main_hebergement .hebergement{
     width: 90%;
 }
 
-.articles .populaire{
+.main_hebergement .populaire{
     width: 80%;
 }
 
